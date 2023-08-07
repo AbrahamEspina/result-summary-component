@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./styles/dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-hanken bg-gray-100 md:py-8">
+    <section class="w-[100%] max-w-sm mx-auto text-white md:flex md:rounded-2xl md:max-w-4xl">
+      
+      <article class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue p-5 shadow-2xl text-center rounded-b-3xl md:rounded-3xl md:w-1/2 md:grid md:content-center">
+        <p class="font-bold text-light-lavender my-4 md:text-2xl">
+          Your Result
+        </p>
+        <div class="w-32 h-32 bg-gradient-to-b from-persian-blue to-light-royal-blue rounded-full mx-auto grid content-center md:w-44 md:h-44">
+          <p id="result-value" class="text-5xl font-bold py-2 md:text-7xl"></p>
+          <p class="text-light-lavender md:text-xl">
+            of 100
+          </p>
+        </div>
+        <h3 class="text-2xl font-bold my-4">Great</h3>
+        <p class="w-72 text-light-lavender text-justify mx-auto">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </article>
+
+      <article id="main-container" class="grid p-10 gap-6 shadow-2xl text-dark-gray-blue rounded-2xl md:w-1/2">
+        <!-- Contenido generado en JavaScript -->
+        <button id="btn" class="w-[100%] bg-dark-gray-blue rounded-xl p-3 text-white hover:shadow-2xl">
+          Continue
+        </button>
+      </article>
+
+    </section>
+
+    <div class="text-center my-5 text-dark-gray-blue font-medium">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Abraham Espinosa</a>.
+    </div>
+    <script src="./scripts/index.js"></script>
+    <script src="./data.json"></script>
+  </body>
+</html>
