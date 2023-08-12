@@ -7,7 +7,7 @@ fetch("./data.json")
 
     //Etiqueta de Summary
     const headline = document.createElement("h3");
-    headline.classList.add("text-lg", "font-bold", "text-dark-gray-blue");
+    headline.classList.add("text-lg", "font-bold", "text-dark-gray-blue", "md:text-2xl");
     headline.textContent = "Summary";
 
     //Id del elemento padre e insertamos headline a mainContainer
@@ -26,15 +26,16 @@ fetch("./data.json")
 
       const img = document.createElement("img");
       img.src = data[i].icon;
+      img.alt = "icons";
 
       //Etiqueta de titulo de cada resultado
       const title = document.createElement("p");
-      title.classList.add(`${data[i].color}`, "ml-4");
+      title.classList.add(`${data[i].color}`, "ml-4", "md:text-lg");
       title.textContent = `${data[i].category}`;
 
       //Etiqueta p contenedora de score y maxScore
       const scoreContainer = document.createElement("p");
-      scoreContainer.classList.add("ml-auto", "font-bold");
+      scoreContainer.classList.add("ml-auto", "font-bold", "md:text-lg");
 
       //Etiqueta span score
       const score = document.createElement("span");
