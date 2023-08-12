@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/Desktop.png)
+![](./design/Solution.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -34,7 +34,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Solution in GitHub](https://github.com/AbrahamEspina/result-summary-component.git)
-- Live Site URL: [Live in Netlify](https://animated-conkies-b3934d.netlify.app/)
+- Live Site URL: [Live in Netlify](https://64d6ec247b37a03d4f01a654--regal-scone-2058a6.netlify.app/)
 
 ## My process
 
